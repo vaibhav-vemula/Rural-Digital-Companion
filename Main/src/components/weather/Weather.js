@@ -48,7 +48,7 @@ class Weather extends React.Component {
           'August',
           'September',
           'October',
-          'Nocvember',
+          'November',
           'December',
         ];
         const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -93,7 +93,7 @@ class Weather extends React.Component {
 
   componentDidMount(){
     
-    const APIkey = '4b62f7b71d07377675daf94ade71e35c';
+    const APIkey = '  ';
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(position => {
   
@@ -125,7 +125,7 @@ class Weather extends React.Component {
           'August',
           'September',
           'October',
-          'Nocvember',
+          'November',
           'December',
         ];
         const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
