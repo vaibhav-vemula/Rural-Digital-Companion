@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logout{
+  text-align: end;
+  padding-right: 100px;
+}
+.logout button{
+  
+  border: none;
+  background: #ff0000;
+  color: #ffffff !important;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 16px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+.logout button:hover{
+  
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background: rgb(253, 64, 64);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+
+.bac{
+  background-color: #4e4e4e;
+  height: 1041px;
+  background:linear-gradient(rgba(156, 156, 156, 0.336), rgba(145, 145, 145, 0.507)),
+  url('./images/g4.gif')  no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  
+}
+
+.box{
+  width: 450px;
+  height: 450px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #000000c2;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px;
+}
+.box h1{
+  color: white;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Ropa Sans', sans-serif;
+
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  border: 2px solid #db7134;
+  padding: 14px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #09ff00;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  border: 2px solid #003cff;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background: #2dc46c;
+}
+
+
+
+
+
+.res{
+  padding-bottom: 40px;
+  padding-top: 0px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.603);
+}
+
+.colo{
+  color: rgb(0, 255, 98);
+}
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+.lab{
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
+  color: rgb(255, 81, 0);
+}
+
+.perb{
+  margin-left: 350px;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 7px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #00a2ff;
+  text-decoration: none;
+  background: linear-gradient(
+    -45deg,
+    #ffffff00 0 calc(50% - 10px),
+    #F5F5F5 calc(50% - 10px) calc(50% + 10px),
+    #20a2ca calc(50% + 10px) 100%
+  );
+  background-size: 250% 100%;
+  background-position: 100% 50%;
+  
+  transition: 0.5s all;
+}
+.perb:hover{
+  background-position: 0% 50%;
+  transition: 0.5s all;
+  color: white;
+}
+
+
+.whole{
+  height: 1040px;
+  padding-top: 70px;
+  margin-top: 0px;
+  
+  background: url("./images/p3.png"),url("./images/birds.gif"),url("./images/birds.gif"),url("./images/birds.gif"),url("./images/back.png");
+
+  background-repeat: repeat-x, no-repeat, no-repeat,no-repeat, repeat;
+  background-position: 0 -100px, 0 250px,900px 250px, 1890px 250px,0 0;
+  background-size: 500px 300px , 500px 250px , 500px 250px,500px 250px, auto 100%;
+
+  animation: animatedBackground 250s linear infinite;
+}
+
+
+
+@keyframes animatedBackground {
+  
+
+  100% {
+    background-position: -3000px -100px, -5000px 250px,-5000px 250px,-5000px 250px, -10000px 0;
+  }
+}
+
+.cycl img{
+  height: 200px;
+}
+
+
+
+
+
+
