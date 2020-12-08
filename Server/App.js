@@ -81,7 +81,7 @@ app.post("/sendmsg", (req, res, next)=>{
       
         const from = 'GDB';
       //const to = `91${dat[0].phone}`;
-      //const to=[917619229838,917619229838,917619229838];
+      
       const text = `\n\nPURPOSE - ${req.body.purpose} \nVILLAGE - ${req.body.village} \nTIME - ${time} \n\n${req.body.message} \n\n\nGRAMIN DIGITAL BANDHU`;
       
       to.map((to)=>{
