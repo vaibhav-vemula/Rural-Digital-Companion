@@ -1,4 +1,4 @@
-# Gramin-Digital-Bandhu
+# Rural Digital Companion
 A MERN stack web application for peo- ple living in rural areas and the governing agencies of villages.
 
 Includes an interface to check at what time water is supplied to the respective villages, weather forecast,LIVE COVID-19 Statistics, government schemes/announcements for villages etc.
